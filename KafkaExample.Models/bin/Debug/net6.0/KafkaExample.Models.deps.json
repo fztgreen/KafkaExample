@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KafkaExample.Models/1.0.0": {
+        "dependencies": {
+          "protobuf-net.Core": "3.1.22"
+        },
+        "runtime": {
+          "KafkaExample.Models.dll": {}
+        }
+      },
+      "protobuf-net.Core/3.1.22": {
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.22.19916"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KafkaExample.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "protobuf-net.Core/3.1.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-82iIFBuQW2K8kixHQ1Eo6qWfnztNYRGU6OGqGmq7c0r8T9X9y9j79SHQSeI/hK3gK6EvHbYMfeGhpRJzA/zv1Q==",
+      "path": "protobuf-net.core/3.1.22",
+      "hashPath": "protobuf-net.core.3.1.22.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "protobuf-net.Core/3.1.22": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "protobuf-net.Core/3.1.22": {
+      "sha512": "82iIFBuQW2K8kixHQ1Eo6qWfnztNYRGU6OGqGmq7c0r8T9X9y9j79SHQSeI/hK3gK6EvHbYMfeGhpRJzA/zv1Q==",
+      "type": "package",
+      "path": "protobuf-net.core/3.1.22",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/protobuf-net.Core.dll",
+        "lib/net462/protobuf-net.Core.xml",
+        "lib/net6.0/protobuf-net.Core.dll",
+        "lib/net6.0/protobuf-net.Core.xml",
+        "lib/netcoreapp3.1/protobuf-net.Core.dll",
+        "lib/netcoreapp3.1/protobuf-net.Core.xml",
+        "lib/netstandard2.0/protobuf-net.Core.dll",
+        "lib/netstandard2.0/protobuf-net.Core.xml",
+        "lib/netstandard2.1/protobuf-net.Core.dll",
+        "lib/netstandard2.1/protobuf-net.Core.xml",
+        "protobuf-net.core.3.1.22.nupkg.sha512",
+        "protobuf-net.core.nuspec",
+        "protobuf-net.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "protobuf-net.Core >= 3.1.22"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\2418f\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj",
+      "projectName": "KafkaExample.Models",
+      "projectPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj",
+      "packagesPath": "C:\\Users\\2418f\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\2418f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "protobuf-net.Core": {
+            "target": "Package",
+            "version": "[3.1.22, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

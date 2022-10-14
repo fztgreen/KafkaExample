@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Producer\\KafkaExample.Producer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj",
+        "projectName": "KafkaExample.Models",
+        "projectPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj",
+        "packagesPath": "C:\\Users\\2418f\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2418f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "protobuf-net.Core": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Producer\\KafkaExample.Producer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Producer\\KafkaExample.Producer.csproj",
+        "projectName": "KafkaExample.Producer",
+        "projectPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Producer\\KafkaExample.Producer.csproj",
+        "packagesPath": "C:\\Users\\2418f\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Producer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\2418f\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj": {
+                "projectPath": "C:\\Users\\2418f\\source\\repos\\KafkaExample\\KafkaExample.Models\\KafkaExample.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.9.3, )"
+            },
+            "RandomTestValues": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "protobuf-net.Core": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
