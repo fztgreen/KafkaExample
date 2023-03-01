@@ -44,6 +44,7 @@ class Program
                             var result = Serializer.Deserialize<Package>(memoryStream);
                             var readable = JsonSerializer.Serialize(result);
                             Console.WriteLine($"Consumed message '{readable}' at: '{cr.TopicPartitionOffset}'.");
+                            Console.WriteLine();
                         }
                     }
                     catch (ConsumeException e)
